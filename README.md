@@ -1,5 +1,7 @@
 # OpenGL Tutorials
 
+[Original here](https://github.com/paroj/gltut), this is my own fork.
+
 This is a series of tutorials on using OpenGL to do graphical rendering.
 The code for each tutorial is found in the `Tut*` directories. The code
 alone is not enough information to understand what is going on. The actual
