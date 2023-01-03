@@ -30,3 +30,7 @@ glsdk/freeglut/progs/demos/spaceball/Makefile
 glsdk/freeglut/src/.deps/
 glsdk/freeglut/src/Makefile
 glsdk/freeglut/stamp-h1
+
+# Documentation
+Documents/Build/website.xsl
+website/

@@ -1,0 +1,6 @@
+#!/bin/bash
+browser_open.sh "file://"$(pwd)"/website/index.html"
+
+# Example file of `browser_open.sh` (the one I use):
+# #!/bin/bash
+# /usr/bin/firefox -new-window "$1"
