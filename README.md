@@ -67,13 +67,17 @@ REMINDER: don't sandbox your browser when trying to view local files or it won't
 
 ## Rebuilding the PDF Documentation
 
+NOTE: I'm not doing this for my machine, so here are the original
+instructions. They'll not work in an Arch Linux machine, so if you
+want this you'll have to adapt it.
+
 - install the packages needed for HTML
 - `apt-get install fop libxerces2-java libsaxon-java libfop-java libjeuclid-fop-java`
 - add the line `find_jars jeuclid-core jeuclid-fop` to `/usr/bin/fop`
 - inside `Documents/Build` run `lua BuildComputerFO.lua`
 
-## Known issues
+### Known issues
 
-### Exception in thread "main" java.lang.NoClassDefFoundError: org/w3c/dom/events/CustomEvent
+#### Exception in thread "main" java.lang.NoClassDefFoundError: org/w3c/dom/events/CustomEvent
 Some versions of `fop` will not work correctly.
 Installing `2.6` from here https://xmlgraphics.apache.org/fop/download.html fixes it.
