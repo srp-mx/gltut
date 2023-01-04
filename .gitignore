@@ -34,3 +34,4 @@ glsdk/freeglut/stamp-h1
 # Documentation
 Documents/Build/website.xsl
 website/
+mycode/*/output/

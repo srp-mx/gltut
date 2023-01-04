@@ -1,0 +1,16 @@
+#!/bin/bash
+./clean
+mkdir output
+pushd output
+g++ -O0 -g \
+    ../*.cpp \
+    ../../../build/framework/libframework.a \
+    ../../../build/glsdk/libglload.a \
+    ../../../build/glsdk/libglutil.a \
+    ../../../build/glsdk/libfreeglut.a \
+    ../../../build/glsdk/libglimg.a \
+    -I ../../../glsdk/glload/include \
+    -l GL -l X11 \
+    -o program
+popd
+
